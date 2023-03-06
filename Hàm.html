@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1,2,3</title>
+</head>
+<body>
+<input type="button" id="Bài 1" value="Bài 1" onclick="Bài1()"></br>
+<input type="button" id="Bài 2" value="Bài 2" onclick="Bài2()"></br>
+<input type="button" id="Bài 3" value="Bài 3" onclick="Bài3()"></br>
+<p id="baby1"></p>
+<p id="baby2"></p>
+<script>
+    function Bài1(){
+        myColor = ["Red","Green","White","Black"];
+        console.log(myColor);
+        document.write(myColor);
+    }
+    function Bài2() {
+        num = [0,245,6,8];
+        console.log(num.join('-'));
+        document.write(num);
+    }
+    function Bài3() {
+        var a = "Chim sẻ đi nắng";
+        let b = a.toUpperCase();
+        document.write(a + "</br>");
+        document.write(b + "</br>");
+    }
+</script>
+</body>
+</html>
